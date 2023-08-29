@@ -1,0 +1,30 @@
+.itemImage .overlay {
+  position: absolute;
+  top: 100%;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 0 10%;
+  transition: 0.3s;
+  overflow: hidden;
+}
+.itemImage {
+  position: relative;
+  overflow: hidden;
+}
+.itemImage:hover .overlay {
+  top: 0;
+}
+.overlay {
+  z-index: 2;
+}
+.itemImage img {
+  transition: 0.3s;
+}
+.itemImage:hover img {
+  transform: scale(1.2);
+}

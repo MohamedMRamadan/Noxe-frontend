@@ -1,0 +1,21 @@
+.authForm input,
+.authForm select {
+  background-color: transparent !important;
+  border-color: #536e89 !important;
+  color: white !important;
+}
+.authForm input:focus,
+.authForm select:focus {
+  box-shadow: 0 0 0 0.25rem rgba(155, 158, 161, 0.25);
+  background-color: white !important;
+  color: black !important;
+}
+.authForm .authNav {
+  color: white;
+  text-decoration: none;
+}
+/* @media screen and (max-width: 600px) {
+  button {
+    width: 100%;
+  }
+} */
