@@ -1,70 +1,26 @@
-# Getting Started with Create React App
+# `Noxe App`
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Project Description
+- **you can check the web through this Link:** https://noxe-eg.netlify.app/
+- **Pay Attention** : Maybe you find the response of whatever request you do at login page a bit slower because the backend code has been deployed at on render, and sometimes it get into a sleep, so after the first response any request you will make you will get the response fast as usuall.
 
-## Available Scripts
+### Project Overview
+This project was made by React, Nodejs, and TMDB Api, it's a movie app
+that present you with a trending list of movies and series that can help you to choose the movie that you want to watch, check the rating and so on...
 
-In the project directory, you can run:
+### Backend
+1. **Login:** Users can securely log in to their accounts using their credentials.
+2. **Sign Up:** New users can create an account by providing the required information.
+3. **Email Verification:** The application verifies user emails to ensure the authenticity of user accounts.
+4. **Forgot Password:** Users can get back the account if the password forgten by sending a code to the email account
+5. **Check Code:** The application check the code to ensure the authenticity of user account to update the password
+6. **Update Password:** Users can update the password to give the account more secure or it's forgten
 
-### `npm start`
+### Frontend
+1. **Home Page:** it gives you a trending list of the movies, series, Peoples period.
+2. **Movies Page:** Collection of trending movies 
+3. **Series Page:** Collection of trending Series 
+4. **Peoples Page:** Collection of trending Peoples
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+   
